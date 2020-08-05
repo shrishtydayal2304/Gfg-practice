@@ -1,1 +1,1 @@
-# Gfg-practise
+# Gfg-practice
