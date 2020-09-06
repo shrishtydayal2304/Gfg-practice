@@ -30,3 +30,6 @@ public class Main{
        }}
           
     }
+
+
+The time complexity of this approach is O(n).
