@@ -1,0 +1,30 @@
+Write a java code to check balanced parentheses in an expression using stack.
+
+Given an expression containing characters ‘{‘,’}’,'(‘,’)’,'[‘,’]’. We have to write a code to check whether an input string has valid parentheses.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+
+Example –
+
+i) {[]}) – Invalid
+
+ii) {()}[] – Valid
+
+
+
+***************************************____________________________________________________________________********************************
+Algorithm to check Balanced Brackets
+We can use stack data structure to solve this problem efficiently. Here are the following steps.
+
+i) First, we need to traverse an input string and pick each character at a time.
+
+ii) If the current character is starting bracket ‘{‘, ‘(‘, ‘[‘ then push it in a stack.
+
+iii) If the current character is closing bracket ‘}’, ‘)’, ‘]’ and the top of the stack is starting bracket then pop from the stack.
+
+iv) After complete traversal, if the stack is empty then it is balanced parentheses otherwise it is not balanced.
+
+
