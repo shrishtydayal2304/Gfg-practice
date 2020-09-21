@@ -1,0 +1,10 @@
+Algorithm to Implement Queue using Two Stacks
+Case 1: Enqueue
+
+Whenever enqueue operation is happen, Push element to stack1.
+
+Case 2: Dequeue
+
+i) When both the stacks are empty then throw an error.
+ii) When stack2 is empty and stack1 is not empty, push all the elements of stack1 into stack2.
+iii) After that pop the element from stack2 and print it.
